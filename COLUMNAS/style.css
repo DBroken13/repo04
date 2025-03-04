@@ -1,1 +1,25 @@
-p{column-count: 3; column-gap: 30px; }
+body {
+  background-color: mediumpurple;
+}
+p:hover {
+  color: aquamarine;
+  background-color: lightcoral;
+}
+p {
+  column-count: 3;
+  border-style: inset;
+  border-style: ;
+  column-gap: 40px;
+  column-rule-width: 2px;
+  column-rule-style: solid;
+  column-rule-color: honeydew;
+  background-color: fuchsia;
+}
+h1 {
+  color: aliceblue;
+  font-size: 2em;
+  transition-duration: 300ms;
+}
+h1:hover {
+  color: aquamarine;
+}
